@@ -4,7 +4,9 @@ My friends call me Nacho (yep, like the tortilla chips 🌮) and I am Data Scien
 To see my CV just check [LinkedIn](https://www.linkedin.com/in/illorca/). Feel free to [write me](mailto:nacho_llorca@outlook.com) with any inquiry!
 
 ### 👩‍⚕️ Cross-corpus NER with German Biomedical Corpora
-Part of my Master's Thesis. I created harmonized versions of the four clinical, distributable and annotated datasets in German language. Using the harmonized corpora as a meta-dataset, I performed a total of 340 cross-corpus evaluation experiments to assess the generalization capabilities of current-day pre-trained Transformers on each dataset. The paper was worth a [publication](https://aclanthology.org/2023.clinicalnlp-1.23/) in the _5th Clinical Natural Language Processing Workshop_ of the ACL. 
+I created harmonized versions of the four clinical, distributable and annotated datasets in German language. Using the harmonized corpora as a meta-dataset, I performed a total of 340 cross-corpus evaluation experiments to assess the generalization capabilities of current-day pre-trained Transformers on each dataset. The paper was worth a [publication](https://aclanthology.org/2023.clinicalnlp-1.23/) in the _5th Clinical Natural Language Processing Workshop_ of the ACL. An extended version of the work with a substantially larger k-fold experimental design will come out shortly. 
+
+The datasets can be applied for through their respective DUAs. Unfortunately, the code and model checkpoints are kept private due to GDPR concerns. 
 
 ### [🔍 Novel NLP Evaluation Module Implementation for HuggingFace](https://huggingface.co/spaces/hpi-dhc/FairEval)
 [Katrin Ortmann presented in 2022](https://aclanthology.org/2022.lrec-1.150) a new evaluation method that more accurately reflects true prediction quality for labeled span-based metrics. We thought the idea was fantastic, so I provided an implementation within the HuggingFace Evaluate module to democratize its use. It has already been of help in some workshops and shared tasks as []. Just follow the link to see the code!
