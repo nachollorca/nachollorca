@@ -17,13 +17,18 @@ I participated in the development of __xMEN__, a python package for cross-lingua
 ### 🕵️ [Multi-modal Face Anti Spoofing](https://github.com/nachollorca/mm-FAS/tree/main)
 I developed an application to detect whether the face in front of the camera is real or fake (a print, a screen...) for a Kiosk manufacturing company. I use a CNN trained separately on RGB, infrared and depth information and test its performance on a self-recorded dataset, paying special attention to the effects of different conditions of room lighting or camera position. The depth model proves to be superior in most scenarios, notably obtaining 0.05 ACER score across all settings. 
 
-### ➗ Mathematical Foundations of ML Algorithms
-My M. Sc. was very heavy on statistics. I have compiled some interesting implementations I did from scratch of various Machine Learning methods in jupyter notebooks.
+### 🎻 [Music Genre Classification](https://github.com/nachollorca/musicator/tree/main)
+A fun little project where I attempt to classify songs within 10 music genres discussing different methods, from random forests to simple neural networks. 
+
+### ➗ Mathematical Foundations of ML Algorithms 
+My M. Sc. was very heavy on statistics. I have compiled some interesting implementations I did from scratch of various Machine Learning methods in jupyter notebooks. 
+[🚧 under construction 🚧]
+
+### 😐 [Facial Landmark Detection](https://github.com/nachollorca/facial-landmark-detection/): 
+Old computer-vision application I developed with a couple of classmates on the use of CNNs to detect facial landmarks (points that define mouth, eyes, nose, eyebrows, etc.) for face recognition.
 
 ### 🟢 Others 
-Some other smaller or shared projects.
-- 🎻 __Music Genre Classification__: a fun little project where I attempt to classify songs within 10 music genres discussing different methods, from random forests to simple neural networks. 
+Some other smaller or shared projects. [🚧 under construction 🚧]
 - 🦠 __Epidemiological Data Analysis in R-language__: I had access to a sweet German biomedical dataset, so here is a varied statistical analysis I performed to show my R skills.
-- 😐 __Facial Landmark Detection__: old computer-vision application I developed with a couple of classmates on the use of CNNs to detect facial landmarks (points that define mouth, eyes, nose, eyebrows, etc.) for face recognition.
 - 💲 __Impact of Paid Subscriptions in Physician Platforms__: in 2020, I conducted an investigation with a couple classmates about whether paying a subscription has a significant effect on the ratings of medical physicians in the platform [Jameda](https://www.jameda.de/). 
 - 🗃️ __ETL tools for Master Data Management__: brief literature survey of ETL and MDM with a fictional demonstration of some use cases.
