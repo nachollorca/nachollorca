@@ -8,11 +8,11 @@ I created harmonized versions of the four clinical, distributable and annotated 
 
 The datasets can be applied for through their respective DUAs. Unfortunately, the code and model checkpoints are kept private due to GDPR concerns. 
 
+### [📱CLI and PiPy for a Cross-lingual Medical Entity Linking Toolkit](https://github.com/hpi-dhc/xmen)
+I participated in the development of __xMEN__, a python package for cross-lingual (x) Medical Entity Normalization. Mainly, I took care of the [pypi integration](https://pypi.org/project/xmen/), the [Command Line Interface](https://github.com/hpi-dhc/xmen/tree/main/xmen/cli), unit tests and documentation. We used the application for the first time to obtain SOTA results in the _Disease Text Mining Shared Task_ from the Barcelona Supercomputing Center. We presented the results in [this paper](https://link.springer.com/chapter/10.1007/978-3-031-42448-9_12#citeas) for the _International Conference of the Cross-Language Evaluation Forum for European Languages 2023_.
+
 ### [🔍 Novel NLP Evaluation Module Implementation for HuggingFace](https://huggingface.co/spaces/hpi-dhc/FairEval)
 [Katrin Ortmann presented in 2022](https://aclanthology.org/2022.lrec-1.150) a new evaluation method that more accurately reflects true prediction quality for labeled span-based metrics. We thought the idea was fantastic, so I provided an implementation within the HuggingFace Evaluate module to democratize its use. It has already been of help in some workshops and shared tasks as []. Just follow the link to see the code!
-
-### [📱CLI for a Cross-lingual Medical Entity Linking Toolkit](https://github.com/hpi-dhc/xmen)
-I participated in the development of __xMEN__, a python package for cross-lingual (x) Medical Entity Normalization. Mainly, I took care of the [pypi integration](https://pypi.org/project/xmen/), the [Command Line Interface](https://github.com/hpi-dhc/xmen/tree/main/xmen/cli), unit tests and documentation. We used the application for the first time to obtain SOTA results in the _Disease Text Mining Shared Task_ from the Barcelona Supercomputing Center, having the results published in CLEF 2023. 
  
 ### 🕵️ [Multi-modal Face Anti Spoofing](https://github.com/nachollorca/mm-FAS)
 I developed an application to detect whether the face in front of the camera is real or fake (a print, a screen...) for a Kiosk manufacturing company. I use a CNN trained separately on RGB, infrared and depth information and test its performance on a self-recorded dataset, paying special attention to the effects of different conditions of room lighting or camera position. The depth model proves to be superior in most scenarios, notably obtaining 0.05 ACER score across all settings. 
