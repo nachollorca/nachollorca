@@ -14,10 +14,10 @@ The datasets can be applied for through their respective DUAs. Unfortunately, th
 ### [📱CLI for a Cross-lingual Medical Entity Linking Toolkit](https://github.com/hpi-dhc/xmen)
 I participated in the development of __xMEN__, a python package for cross-lingual (x) Medical Entity Normalization. Mainly, I took care of the [pypi integration](https://pypi.org/project/xmen/), the [Command Line Interface](https://github.com/hpi-dhc/xmen/tree/main/xmen/cli), unit tests and documentation. We used the application for the first time to obtain SOTA results in the _Disease Text Mining Shared Task_ from the Barcelona Supercomputing Center, having the results published in CLEF 2023. 
  
-### 🕵️ [Multi-modal Face Anti Spoofing](https://github.com/nachollorca/mm-FAS/tree/main)
+### 🕵️ [Multi-modal Face Anti Spoofing](https://github.com/nachollorca/mm-FAS)
 I developed an application to detect whether the face in front of the camera is real or fake (a print, a screen...) for a Kiosk manufacturing company. I use a CNN trained separately on RGB, infrared and depth information and test its performance on a self-recorded dataset, paying special attention to the effects of different conditions of room lighting or camera position. The depth model proves to be superior in most scenarios, notably obtaining 0.05 ACER score across all settings. 
 
-### 🎻 [Music Genre Classification](https://github.com/nachollorca/musicator/tree/main)
+### 🎻 [Music Genre Classification](https://github.com/nachollorca/musicator)
 A fun little project where I attempt to classify songs within 10 music genres discussing different methods, from random forests to simple neural networks. 
 
 ### ➗ Mathematical Foundations of ML Algorithms 
