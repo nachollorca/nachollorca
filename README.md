@@ -17,7 +17,7 @@
   
 </p>
 
-### 👩‍⚕️ Cross-corpus NER with German Biomedical Corpora <img align="right" src="https://tinyurl.com/2p9ft7xf"/> <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img align="right" src="https://img.shields.io/badge/W&B-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" />
+### 👩‍⚕️ Cross-corpus NER with German Biomedical Corpora <img align="right" src="https://tinyurl.com/2p9ft7xf"/> <img align="right" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=torch&logoColor=white"/> <img align="right" src="https://img.shields.io/badge/W&B-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white" />
 I created harmonized versions of the four clinical, distributable and annotated datasets in German language. Using the harmonized corpora as a meta-dataset, I performed a total of 340 cross-corpus evaluation experiments to assess the generalization capabilities of current-day pre-trained Transformers on each dataset. The paper was worth a [publication](https://aclanthology.org/2023.clinicalnlp-1.23/) in the _5th Clinical Natural Language Processing Workshop_ of the ACL. An extended version of the work with a substantially larger k-fold experimental design will come out shortly. 
 
 The datasets can be applied for through their respective DUAs. Unfortunately, the code and model checkpoints are kept private due to GDPR concerns. 
